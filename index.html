@@ -6,7 +6,8 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/style.css">
@@ -14,16 +15,35 @@
 
 <body>
   <header id="page-hero" class="site-header">
-    <nav class="container-fluid">
-      <a class="nav-item nav-link" href="#page-hero">Home</a>
-      <a class="nav-item nav-link" href="#page-multicolumn"></a>
-      <a class="nav-item nav-link" href="#page-media">media</a>
-      <a class="nav-item nav-link" href="#page-photogrid">grid</a>
-      <a class="nav-item nav-link" href="#page-carousel">carousel</a>
+    <nav class="site-nav family-sans text-uppercase navbar navbar-expand-md bg-secondary navbar-dark">
+      <div class="container-fluid">
 
+        <a class="navbar-brand" href="#page-hero">
+          <img src="images/logos/divera-192x192.png" alt="divera-logo" height="32px" />
+          Divera
+        </a>
+
+        <button type="button" class="navbar-toggler"
+          data-toggle="collapse" data-target="#togglerNav"
+          aria-controls="#togglerNav" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <section class="collapse navbar-collapse" id="togglerNav">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="#page-hero">What we do</a>
+            <a class="nav-item nav-link" href="#page-multicolumn">Our bikes</a>
+            <a class="nav-item nav-link" href="#page-media">FAQ</a>
+            <a class="nav-item nav-link" href="#page-photogrid">Order</a>
+            <a class="nav-item nav-link" href="#page-carousel">Contact</a>
+          </div>
+        </section>
+      </div>
     </nav>
   </header>
 
+  <script src="js/lib/jquery.min.js"></script>
+  <script src="js/lib/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

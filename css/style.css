@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:300|Source+Sans+Pro:200,400,600');
 
 :root {
-  /* 
+  /*
     --blue: #007bff;
     --indigo: #6610f2;
     --purple: #6f42c1;
@@ -57,7 +57,7 @@ body {
 }
 
 .site-header {
-  background: url(../images/hero.svg);
+  background: url(../images/hero-blue1.jpg);
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
