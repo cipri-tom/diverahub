@@ -15,24 +15,27 @@
 
 <body>
   <header id="page-hero" class="site-header">
-    <nav class="site-nav family-sans text-uppercase navbar navbar-expand-md bg-secondary navbar-dark">
+    <nav class="site-nav family-sans text-uppercase navbar navbar-expand-md bg-dark navbar-dark">
       <div class="container-fluid">
 
+        <!-- The logo+title -->
         <a class="navbar-brand" href="#page-hero">
           <img src="images/logos/divera-192x192.png" alt="divera-logo" height="32px" />
           Divera
         </a>
 
+        <!-- The hamburger button for collapsing -->
         <button type="button" class="navbar-toggler"
           data-toggle="collapse" data-target="#togglerNav"
           aria-controls="#togglerNav" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
+        <!-- Links to page sections that are collapsed -->
         <section class="collapse navbar-collapse" id="togglerNav">
           <div class="navbar-nav ml-auto">
             <a class="nav-item nav-link" href="#page-hero">What we do</a>
-            <a class="nav-item nav-link" href="#page-multicolumn">Our bikes</a>
+            <a class="nav-item nav-link" href="#page-bikes">Our bikes</a>
             <a class="nav-item nav-link" href="#page-media">FAQ</a>
             <a class="nav-item nav-link" href="#page-photogrid">Order</a>
             <a class="nav-item nav-link" href="#page-carousel">Contact</a>
@@ -40,7 +43,46 @@
         </section>
       </div>
     </nav>
+
+    <section class="layout-hero text-light text-center">
+      <!-- <div class="container"> -->
+        <!-- TODO: This should be removed because the navbar will show it. Maybe? -->
+        <!-- <h3>What we do</h3> -->
+        <h3 class="hero-title py-5">Hand-crafted bamboo bicycles</h3>
+      <!-- </div> -->
+    </section>
   </header>
+
+  <article id="page-partners">
+    <section>
+      <!-- TODO: arrange these, like here: https://forwardhq.com/ Who's using -->
+      <h4 class="">In collaboration with:</h3>
+        <img src="images/logos/partners/logo-SHIMANO.svg" alt="Shimano logo">
+        <img src="images/logos/partners/logo-Continental.svg" alt="Continental logo">
+        <img src="images/logos/partners/logo-SRAM.png" alt="SRAM logo">
+        <img src="images/logos/partners/logo-RockShox.jpg" alt="RockShox logo">
+        <img src="images/logos/partners/logo-zf-sachs.png" alt="Sachs logo">
+    </section>
+  </article>
+
+  <article id="page-bikes" class="page-section text-center py-5">
+    <header class="page-section-header container">
+      <div class="row justify-content-center">
+        <div class="col-11 col-sm-10 col-md-8">
+          <h2>Our bikes</h2>
+          <p>Each of our bikes is carefully hand crafted to offer you a unique riding experience,
+            with the frame made from a nature-engineered material that is as strong as steel and
+            dampens vibrations like carbon fiber.
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <section>
+
+    </section>
+
+  </article>
 
   <script src="js/lib/jquery.min.js"></script>
   <script src="js/lib/bootstrap.bundle.min.js"></script>
